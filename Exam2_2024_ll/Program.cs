@@ -34,7 +34,8 @@
         Console.Write("¿Cuántos jugadores desean participar? (2-4): ");
         numJugadores = Convert.ToInt32(Console.ReadLine());
 
-        while (numJugadores < 2 || numJugadores > 4) ;
+        while (numJugadores <= 2 || numJugadores >= 4) ;
+
 
      
     }
