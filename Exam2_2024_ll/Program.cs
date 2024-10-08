@@ -31,7 +31,10 @@
         bool Juego = true;
 
         Console.WriteLine("Bienvenidos al juego de ADIVINA EL NÚMERO!");
-        Console.Write("¿Cuántos jugadores desean participar?: ");
+        Console.Write("¿Cuántos jugadores desean participar? (2-4): ");
+        numJugadores = Convert.ToInt32(Console.ReadLine());
+
+        while (numJugadores < 2 || numJugadores > 4) ;
 
      
     }
