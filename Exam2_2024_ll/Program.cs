@@ -30,6 +30,9 @@
         int numJugadores, numAletorio;
         bool Juego = true;
 
+        Console.WriteLine("Bienvenidos al juego de ADIVINA EL NÚMERO!");
+        Console.Write("¿Cuántos jugadores desean participar?: ");
+
      
     }
 }
